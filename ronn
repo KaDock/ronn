@@ -1,0 +1,4 @@
+#!/bin/sh
+SOURCE=$1
+DEST=$(echo $1 | cut -f 1-2 -d '.')
+cat $SOURCE | docker run --rm -i kalledk/ronn:latest > $DEST
