@@ -1,4 +1,4 @@
 #!/bin/sh
 SOURCE=$1
 DEST=$(echo $1 | cut -f 1-2 -d '.')
-cat $SOURCE | docker run --rm -i -e RONN_ORGANIZATION="$RONN_ORGANIZATION" kalledk/ronn:v1.0.0 > $DEST
+cat $SOURCE | docker run --rm -i -e RONN_ORGANIZATION="$RONN_ORGANIZATION" kadock/ronn > $DEST
