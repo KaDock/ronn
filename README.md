@@ -1,4 +1,7 @@
 # ronn
+
+[![](https://images.microbadger.com/badges/image/kadock/ronn.svg)](https://microbadger.com/images/kadock/ronn "Get your own image badge on microbadger.com")
+
 Docker Container of Ronn
 
 https://github.com/rtomayko/ronn
